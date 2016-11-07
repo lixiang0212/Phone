@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/tel_list_relative"
+    android:background="@color/colorWhite"
+    >
+
+    <ImageView
+        style="@style/actionbar_icon"
+        android:id="@+id/home_actionbar_launcher" />
+    <TextView
+        style="@style/actionbar_title"
+        android:id="@+id/home_actionbar_title" />
+    <ImageView
+        style="@style/actionbar_icon1"
+        android:id="@+id/home_actionbar_setting" />
+</RelativeLayout>

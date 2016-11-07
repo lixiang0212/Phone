@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/file_list_select"
+    >
+    <TextView
+        android:id="@+id/file_list_name"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="文本文件"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        />
+    <TextView
+        android:layout_toRightOf="@+id/file_list_name"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="0B"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:id="@+id/file_list_size" />
+    <ImageView
+        android:id="@+id/file_list_iamge"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_arrows_right"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/file_list_progressBar"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:visibility="visible"
+        />
+
+</RelativeLayout>

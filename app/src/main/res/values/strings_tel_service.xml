@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--名称-->
+    <string name="tel_title">一个电话通天下！</string>
+    <string name="tel_list_name">张三</string>
+    <string name="tel_number_number">123456</string>
+    <!--标题内容-->
+    <style name="tel_title">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">200dp</item>
+        <item name ="android:textSize">30dp</item>
+        <item name ="android:gravity">center</item>
+        <item name ="android:text">@string/tel_title</item>
+        <item name ="android:background">@color/colorSpringGreen</item>
+        <item name ="android:textColor">@color/colorWhite</item>
+    </style>
+    <!--人物图标-->
+    <style name="tel_list_view">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:gravity">center_horizontal</item>
+    </style>
+    <!--人物姓名-->
+    <style name="tel_list_text">
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">50dp</item>
+        <item name ="android:textSize">18dp</item>
+        <item name ="android:textColor">@color/colorWhite</item>
+        <item name ="android:gravity">center</item>
+        <item name ="android:drawableLeft">@drawable/tel_people_icon</item>
+        <item name ="android:drawablePadding">10dp</item>
+        <item name ="android:text">@string/tel_list_name</item>
+    </style>
+    <!--右边图片-->
+    <style name="tel_list_image">
+        <item name ="android:layout_width">50dp</item>
+        <item name ="android:layout_height">20dp</item>
+        <item name ="android:layout_centerVertical">true</item>
+        <item name ="android:layout_alignParentRight">true</item>
+        <item name ="android:layout_marginRight">10dp</item>
+        <item name ="android:src">@drawable/ic_arrows_right</item>
+    </style>
+    <!--Relative-->
+    <style name="tel_list_relative">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">40dp</item>
+    </style>
+    <!--number_list的右边text-->
+    <style name="tel_number_number">
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">match_parent</item>
+        <item name ="android:gravity">center</item>
+        <item name ="android:layout_alignParentRight">true</item>
+        <item name ="android:layout_marginRight">10dp</item>
+        <item name ="android:text">@string/tel_number_number</item>
+        <item name ="android:textColor">@color/colorSpringGreen</item>
+    </style>
+</resources>

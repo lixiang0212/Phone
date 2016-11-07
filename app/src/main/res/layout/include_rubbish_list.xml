@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorWhite"
+    >
+
+    <ListView
+        android:id="@+id/rubbish_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="invisible"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rubbish_progress_bar"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:indeterminateDrawable="@drawable/rubbish_progress"
+        android:indeterminateDuration="1000"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateOnly="true"
+        />
+
+</FrameLayout>

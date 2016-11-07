@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--坐标图标-->
+    <style name="actionbar_icon">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:src">@drawable/ic_launcher</item>
+    </style>
+    <!--右边图标-->
+    <style name="actionbar_icon1">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:src">@drawable/ic_child_configs</item>
+    </style>
+    <!--中间title-->
+    <style name="actionbar_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/home_actionbar_title</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorDeepSkyBlue</item>
+    </style>
+
+
+
+
+
+</resources>

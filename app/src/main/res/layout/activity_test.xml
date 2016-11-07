@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.TestActivity">
+
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:text="姓名："
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/test_tv_name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="100dp"
+            android:id="@+id/test_et_name"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:hint="id"
+            android:layout_alignParentRight="true"
+            android:id="@+id/test_et_id" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_alignParentLeft="true"
+            android:text="密码："
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/test_tv_pd" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="100dp"
+            android:id="@+id/test_et_pd"
+            android:layout_gravity="center_horizontal" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        >
+
+        <Button
+            android:id="@+id/test_bt_add"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="添加"
+            />
+        <Button
+            android:id="@+id/test_bt_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="删除"
+            />
+        <Button
+            android:id="@+id/test_bt_update"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="更新"
+            />
+        <Button
+            android:id="@+id/test_bt_select"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="查询"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="刷新"
+        android:id="@+id/test_bt_now"
+         />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_list_view"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

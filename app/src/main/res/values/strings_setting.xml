@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auto_start">开机启动</string>
+    <string name="message_icon">通知图标</string>
+    <string name="about_me">关于我们</string>
+    <string name="about_phone">手机信息</string>
+    <!--左边TextView的设置-->
+    <style name="set_context">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/auto_start</item>
+    </style>
+    <!--Relative的属性设置-->
+    <style name="set_relativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="set_Layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!--switch控件的设置-->
+    <style name="set_switch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:checked">false</item>
+    </style>
+    <!--图片-->
+    <style name="set_image">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:src">@drawable/ic_arrows_right</item>
+    </style>
+</resources>

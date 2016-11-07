@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<!--圆角效果-->
+<corners android:radius="5dp"/>
+    <!--填充颜色-->
+<solid android:color="@color/colorAccent"/>
+    <!--描边-->
+<stroke android:color="@color/colorAqua"
+        android:width="2dp"/>
+<gradient android:startColor="@color/colorAccent"
+          android:endColor="@color/colorYellow"/>
+</shape>

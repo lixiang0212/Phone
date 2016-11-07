@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/set_Layout"
+    >
+
+    <RelativeLayout style="@style/tel_list_relative"
+        android:background="@drawable/tel_service_list"
+        >
+
+        <TextView
+            style="@style/tel_list_text"
+            android:id="@+id/tel_list_text" />
+
+        <ImageView
+            style="@style/tel_list_image"
+            android:id="@+id/tel_list_image" />
+
+    </RelativeLayout>
+
+</LinearLayout>

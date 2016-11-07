@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--按钮名称-->
+    <string name="app_name">华为管家</string>
+    <string name="home_rocket">手机加速</string>
+    <string name="home_softmgr">软件管理</string>
+    <string name="home_phonemgr">手机检测</string>
+    <string name="home_telmgr">通讯大全</string>
+    <string name="home_filemgr">文件管理</string>
+    <string name="home_sdclean">垃圾清理</string>
+    <string name="home_actionbar_title">手机管家</string>
+    <!--home的layout布局属性-->
+    <style name="home_layout">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!--home_button的layout布局属性-->
+    <style name="home_btn_layout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:weightSum">3</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <!--home_button的text属性-->
+    <style name="home_btn_text">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:drawableTop">@drawable/icon_rocket</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/colorDeepSkyBlue</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/home_btn_selector</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginLeft">0.5dp</item>
+        <item name="android:layout_marginRight">0.5dp</item>
+    </style>
+</resources>

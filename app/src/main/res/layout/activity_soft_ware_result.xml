@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="13"
+    android:background="@color/colorGainsboro"
+    tools:context="com.androidy.azsecuer.activity.SoftWareResultActivity">
+
+    <include layout="@layout/include_actionbar"/>
+
+    <include layout="@layout/include_rubbish_list"
+             android:layout_width="match_parent"
+            android:layout_marginTop="1dp"
+             android:layout_height="0dp"
+             android:layout_weight="12" />
+    <Button
+        android:id="@+id/soft_result_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="卸载"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:background="@drawable/soft_btn_selector"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    >
+  <CheckBox
+      android:id="@+id/file_result_cBox"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      />
+    <Button
+        android:background="@drawable/phone_speed_clean"
+        android:layout_toRightOf="@+id/file_result_cBox"
+        android:id="@+id/file_result_cBtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="一键爆炸"
+        android:textColor="@color/colorWhite"
+        />
+</RelativeLayout>

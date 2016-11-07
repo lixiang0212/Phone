@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_marginTop="2dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        >
+    <com.androidy.azsecuer.config.BatteryProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/phone_test_pgbg"
+        android:id="@+id/phone_test_progressBar" />
+
+    <TextView
+        android:layout_width="12dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/colorGray"
+        android:layout_toRightOf="@+id/phone_test_progressBar"
+        android:id="@+id/phone_test" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:text="50%"
+        android:textColor="@color/colorDeepSkyBlue"
+        android:id="@+id/phone_test_text" />
+</RelativeLayout>
+</LinearLayout>

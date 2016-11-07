@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    >
+
+        <CheckBox
+            android:id="@+id/phone_speed_cb"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingLeft="3dp"
+
+            />
+        <Button
+            android:paddingRight="5dp"
+            android:id="@+id/phone_speed_clean"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/phone_speed_clean"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentEnd="true"
+            android:text="一键爆炸"
+            android:layout_toRightOf="@+id/phone_speed_cb"
+            />
+
+    </RelativeLayout>

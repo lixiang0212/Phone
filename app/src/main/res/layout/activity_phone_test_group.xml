@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/phone_test_select"
+        >
+        <ImageView
+            android:id="@+id/phone_group_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/setting_info_icon_version"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="信息"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/phone_group_image"
+            android:gravity="end"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:id="@+id/phone_group_text"
+            />
+
+
+    </RelativeLayout>
+</LinearLayout>

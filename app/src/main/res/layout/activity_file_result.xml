@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="12"
+    tools:context="com.androidy.azsecuer.activity.FileResultActivity">
+
+    <include layout="@layout/include_actionbar"/>
+    <RelativeLayout
+        android:background="@color/colorDeepSkyBlue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        >
+        <TextView
+            android:id="@+id/file_result_fileCount"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="文件数量"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/file_result_fileCount"
+            android:id="@+id/file_result_cSize"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="0B"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/file_result_cSize"
+            android:id="@+id/file_result_sizeName"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="占用内存"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/file_result_sizeName"
+            android:id="@+id/file_result_size"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="0B"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textSize="15sp"
+            />
+
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/file_result_list_view"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11">
+    </ListView>
+
+    <include layout="@layout/include_file_result"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:layout_marginRight="4dp"
+
+        />
+
+</LinearLayout>

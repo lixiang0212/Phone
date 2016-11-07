@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGainsboro"
+    tools:context="com.androidy.azsecuer.activity.PhoneSpeedActivity">
+
+    <include layout="@layout/include_actionbar"
+        android:id="@+id/include" />
+    <RelativeLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include"
+        android:id="@+id/phone_speed_relative"
+        android:background="@color/colorWhite"
+        >
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="phoneName"
+        android:textColor="@color/colorDeepSkyBlue"
+        android:id="@+id/phone_speed_name"
+        android:layout_centerHorizontal="true" />
+
+    <com.androidy.azsecuer.config.BatteryProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_below="@+id/phone_speed_name"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:progressDrawable="@drawable/phone_speed_selector"
+        android:max="100"
+        android:progress="30"
+        android:id="@+id/phone_speed_progressBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/phone_speed_progressBar"
+        android:text="New Text"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/colorDeepSkyBlue"
+        android:id="@+id/phone_speed_size"
+        android:layout_gravity="right" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/phone_speed_btn_all"
+        android:layout_below="@+id/phone_speed_size"
+        android:text="显示所有进程"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/phone_speed_btn"
+        android:layout_gravity="center_horizontal" />
+    </RelativeLayout>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/include_rubbish_list"
+        android:layout_below="@+id/phone_speed_relative"
+        android:layout_above="@+id/phone_speed"
+        />
+
+    <include layout="@layout/phone_speed_list"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/phone_speed"
+        />
+</RelativeLayout>

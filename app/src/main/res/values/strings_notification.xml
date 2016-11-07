@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--text名字-->
+    <string name="notification_title">手机管家</string>
+    <string name="notification_message">内容消息</string>
+    <!--notification布局-->
+    <style name="notification_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+    <!--notification左边图标-->
+    <style name="notification_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_launcher</item>
+    </style>
+    <!--notification右边图标-->
+    <style name="notification_icon1">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:src">@drawable/icon_telmgr</item>
+    </style>
+    <!--notification的title-->
+    <style name="notification_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toRightOf">@+id/notification_icon</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:text">@string/notification_title</item>
+    </style>
+    <!--notification的message-->
+    <style name="notification_message">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toRightOf">@+id/notification_icon</item>
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:text">@string/notification_message</item>
+    </style>
+    <!--notification的那根线-->
+    <style name="notification_text">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_toLeftOf">@+id/notification_icon1</item>
+        <item name="android:background">@color/colorBlack</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+</resources>

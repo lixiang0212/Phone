@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="6"
+    android:background="@color/colorGainsboro"
+    tools:context="com.androidy.azsecuer.activity.PhoneTestActivity">
+    <include layout="@layout/include_actionbar" />
+    <include layout="@layout/include_phone_test"
+             android:layout_weight="2"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_marginTop="1dp"
+        />
+
+    <ExpandableListView
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:groupIndicator="@null"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:background="@color/colorWhite"
+        android:id="@+id/phone_test_list" />
+
+</LinearLayout>

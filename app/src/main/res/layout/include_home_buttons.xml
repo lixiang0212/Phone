@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/set_Layout"
+    android:weightSum="2">
+    <LinearLayout style="@style/home_btn_layout">
+        <TextView
+            style="@style/home_btn_text"
+            android:drawableTop="@drawable/icon_rocket"
+            android:text="@string/home_rocket"
+            android:id="@+id/home_rocket" />
+        <TextView
+            style="@style/home_btn_text"
+            android:drawableTop="@drawable/icon_softmgr"
+            android:text="@string/home_softmgr"
+            android:id="@+id/home_softmgr" />
+        <TextView
+            style="@style/home_btn_text"
+            android:drawableTop="@drawable/icon_phonemgr"
+            android:text="@string/home_phonemgr"
+            android:id="@+id/home_phonemgr" />
+    </LinearLayout>
+    <LinearLayout style="@style/home_btn_layout">
+        <TextView
+            style="@style/home_btn_text"
+            android:drawableTop="@drawable/icon_telmgr"
+            android:text="@string/home_telmgr"
+            android:id="@+id/home_telmgr" />
+        <TextView
+            style="@style/home_btn_text"
+            android:drawableTop="@drawable/icon_filemgr"
+            android:text="@string/home_filemgr"
+            android:id="@+id/home_filemgr" />
+        <TextView
+            style="@style/home_btn_text"
+            android:drawableTop="@drawable/icon_sdclean"
+            android:text="@string/home_sdclean"
+            android:id="@+id/home_sdclean" />
+    </LinearLayout>
+</LinearLayout>

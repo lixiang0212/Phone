@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/set_Layout"
+    tools:context="com.androidy.azsecuer.activity.SettingActivity">
+
+    <include layout="@layout/include_actionbar"/>
+
+    <RelativeLayout style="@style/set_relativeLayout">
+        <TextView
+            style="@style/set_context"
+            android:id="@+id/setting_tv_list1" />
+        <Switch
+            style="@style/set_switch"
+            android:id="@+id/setting_sw_list1" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/set_relativeLayout">
+        <TextView
+            style="@style/set_context"
+            android:text="@string/message_icon"
+            android:id="@+id/setting_tv_list2" />
+        <Switch
+            style="@style/set_switch"
+            android:id="@+id/setting_sw_list2" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/set_relativeLayout">
+        <TextView
+            style="@style/set_context"
+            android:text="@string/about_me"
+            android:id="@+id/setting_tv_list3" />
+        <ImageView
+            style="@style/set_image"
+            android:id="@+id/setting_iv1" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/set_relativeLayout">
+        <TextView
+            style="@style/set_context"
+            android:text="@string/about_phone"
+            android:id="@+id/setting_tv_list4" />
+        <ImageView
+            style="@style/set_image"
+            android:id="@+id/setting_iv2" />
+    </RelativeLayout>
+
+</LinearLayout>
